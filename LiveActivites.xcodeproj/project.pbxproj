@@ -11,7 +11,40 @@
 		37CC24F828DCC3E10020F57A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC24F728DCC3E10020F57A /* ContentView.swift */; };
 		37CC24FA28DCC3E30020F57A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CC24F928DCC3E30020F57A /* Assets.xcassets */; };
 		37CC24FD28DCC3E30020F57A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CC24FC28DCC3E30020F57A /* Preview Assets.xcassets */; };
+		37CC250A28DCC45D0020F57A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC250928DCC45D0020F57A /* WidgetKit.framework */; };
+		37CC250C28DCC45D0020F57A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC250B28DCC45D0020F57A /* SwiftUI.framework */; };
+		37CC250F28DCC45D0020F57A /* OrderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC250E28DCC45D0020F57A /* OrderStatus.swift */; };
+		37CC251228DCC45F0020F57A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CC251128DCC45F0020F57A /* Assets.xcassets */; };
+		37CC251428DCC45F0020F57A /* OrderStatus.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 37CC251028DCC45D0020F57A /* OrderStatus.intentdefinition */; };
+		37CC251528DCC45F0020F57A /* OrderStatus.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 37CC251028DCC45D0020F57A /* OrderStatus.intentdefinition */; };
+		37CC251828DCC45F0020F57A /* OrderStatusExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 37CC250728DCC45D0020F57A /* OrderStatusExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37CC251F28DCC6330020F57A /* OrderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC251E28DCC6330020F57A /* OrderAttributes.swift */; };
+		37CC252028DCC64C0020F57A /* OrderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC251E28DCC6330020F57A /* OrderAttributes.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37CC251628DCC45F0020F57A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37CC24EA28DCC3E10020F57A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37CC250628DCC45D0020F57A;
+			remoteInfo = OrderStatusExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37CC251C28DCC45F0020F57A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				37CC251828DCC45F0020F57A /* OrderStatusExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		37CC24F228DCC3E10020F57A /* LiveActivites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveActivites.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +52,14 @@
 		37CC24F728DCC3E10020F57A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		37CC24F928DCC3E30020F57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37CC24FC28DCC3E30020F57A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37CC250728DCC45D0020F57A /* OrderStatusExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OrderStatusExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CC250928DCC45D0020F57A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		37CC250B28DCC45D0020F57A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		37CC250E28DCC45D0020F57A /* OrderStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStatus.swift; sourceTree = "<group>"; };
+		37CC251028DCC45D0020F57A /* OrderStatus.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = OrderStatus.intentdefinition; sourceTree = "<group>"; };
+		37CC251128DCC45F0020F57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37CC251328DCC45F0020F57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CC251E28DCC6330020F57A /* OrderAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderAttributes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +70,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37CC250428DCC45D0020F57A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CC250C28DCC45D0020F57A /* SwiftUI.framework in Frameworks */,
+				37CC250A28DCC45D0020F57A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				37CC24F428DCC3E10020F57A /* LiveActivites */,
+				37CC250D28DCC45D0020F57A /* OrderStatus */,
+				37CC250828DCC45D0020F57A /* Frameworks */,
 				37CC24F328DCC3E10020F57A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				37CC24F228DCC3E10020F57A /* LiveActivites.app */,
+				37CC250728DCC45D0020F57A /* OrderStatusExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +104,7 @@
 		37CC24F428DCC3E10020F57A /* LiveActivites */ = {
 			isa = PBXGroup;
 			children = (
+				37CC251D28DCC5EE0020F57A /* Model */,
 				37CC24F528DCC3E10020F57A /* LiveActivitesApp.swift */,
 				37CC24F728DCC3E10020F57A /* ContentView.swift */,
 				37CC24F928DCC3E30020F57A /* Assets.xcassets */,
@@ -67,6 +121,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		37CC250828DCC45D0020F57A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37CC250928DCC45D0020F57A /* WidgetKit.framework */,
+				37CC250B28DCC45D0020F57A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37CC250D28DCC45D0020F57A /* OrderStatus */ = {
+			isa = PBXGroup;
+			children = (
+				37CC250E28DCC45D0020F57A /* OrderStatus.swift */,
+				37CC251028DCC45D0020F57A /* OrderStatus.intentdefinition */,
+				37CC251128DCC45F0020F57A /* Assets.xcassets */,
+				37CC251328DCC45F0020F57A /* Info.plist */,
+			);
+			path = OrderStatus;
+			sourceTree = "<group>";
+		};
+		37CC251D28DCC5EE0020F57A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37CC251E28DCC6330020F57A /* OrderAttributes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +159,34 @@
 				37CC24EE28DCC3E10020F57A /* Sources */,
 				37CC24EF28DCC3E10020F57A /* Frameworks */,
 				37CC24F028DCC3E10020F57A /* Resources */,
+				37CC251C28DCC45F0020F57A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				37CC251728DCC45F0020F57A /* PBXTargetDependency */,
 			);
 			name = LiveActivites;
 			productName = LiveActivites;
 			productReference = 37CC24F228DCC3E10020F57A /* LiveActivites.app */;
 			productType = "com.apple.product-type.application";
+		};
+		37CC250628DCC45D0020F57A /* OrderStatusExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37CC251928DCC45F0020F57A /* Build configuration list for PBXNativeTarget "OrderStatusExtension" */;
+			buildPhases = (
+				37CC250328DCC45D0020F57A /* Sources */,
+				37CC250428DCC45D0020F57A /* Frameworks */,
+				37CC250528DCC45D0020F57A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderStatusExtension;
+			productName = OrderStatusExtension;
+			productReference = 37CC250728DCC45D0020F57A /* OrderStatusExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +199,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					37CC24F128DCC3E10020F57A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					37CC250628DCC45D0020F57A = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
@@ -116,6 +220,7 @@
 			projectRoot = "";
 			targets = (
 				37CC24F128DCC3E10020F57A /* LiveActivites */,
+				37CC250628DCC45D0020F57A /* OrderStatusExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +235,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37CC250528DCC45D0020F57A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CC251228DCC45F0020F57A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +250,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37CC251528DCC45F0020F57A /* OrderStatus.intentdefinition in Sources */,
 				37CC24F828DCC3E10020F57A /* ContentView.swift in Sources */,
 				37CC24F628DCC3E10020F57A /* LiveActivitesApp.swift in Sources */,
+				37CC251F28DCC6330020F57A /* OrderAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CC250328DCC45D0020F57A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CC252028DCC64C0020F57A /* OrderAttributes.swift in Sources */,
+				37CC250F28DCC45D0020F57A /* OrderStatus.swift in Sources */,
+				37CC251428DCC45F0020F57A /* OrderStatus.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37CC251728DCC45F0020F57A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37CC250628DCC45D0020F57A /* OrderStatusExtension */;
+			targetProxy = 37CC251628DCC45F0020F57A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		37CC24FE28DCC3E30020F57A /* Debug */ = {
@@ -262,6 +395,7 @@
 		37CC250128DCC3E30020F57A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +425,7 @@
 		37CC250228DCC3E30020F57A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +452,60 @@
 			};
 			name = Release;
 		};
+		37CC251A28DCC45F0020F57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37P2V26KZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderStatus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OrderStatus;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jannatun-nahar-papia.LiveActivites.OrderStatus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37CC251B28DCC45F0020F57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37P2V26KZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderStatus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OrderStatus;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jannatun-nahar-papia.LiveActivites.OrderStatus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +523,15 @@
 			buildConfigurations = (
 				37CC250128DCC3E30020F57A /* Debug */,
 				37CC250228DCC3E30020F57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37CC251928DCC45F0020F57A /* Build configuration list for PBXNativeTarget "OrderStatusExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CC251A28DCC45F0020F57A /* Debug */,
+				37CC251B28DCC45F0020F57A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
